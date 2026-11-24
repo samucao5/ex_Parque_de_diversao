@@ -1,0 +1,22 @@
+{
+  "Parque": {
+    "Brinquedos": [
+      { "nome": "Casa Assombrada", "regras": ["Idade", "Altura"] },
+      { "nome": "Montanha Russa", "regras": ["Altura"] },
+      { "nome": "Carrinho de bate-bate", "regras": [] }
+    ],
+    "Restricoes": [
+      {
+        "Brinquedos": [
+          { "nome": "Casa Assombrada", "regras": ["Idade", "Altura"] },
+          { "nome": "Montanha Russa", "regras": ["Altura"] },
+          { "nome": "Carrinho de bate-bate", "regras": [] }
+        ],
+        "Regras": [
+          { "nome": "Idade", "regra": "X > 18", "campo": "idade" },
+          { "nome": "Altura", "regra": "X >= 170", "campo": "altura" }
+        ]
+      }
+    ]
+  }
+}

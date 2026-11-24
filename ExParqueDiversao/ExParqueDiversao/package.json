@@ -1,0 +1,9 @@
+{
+  "name": "ex-parque-diversao",
+  "version": "1.0.0",
+  "description": "Exercicio de verificacao de regras de entrada em brinquedos de um parque de diversoes",
+  "type": "module",
+  "scripts": {
+    "start": "node App.js"
+  }
+}
